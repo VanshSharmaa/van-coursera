@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-assignment</title>
+</head>
+<style>
+* {
+box-sizing: border-box;
+}
+body {
+background-color: darkred;
+}
+h1 {
+	margin: 100px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 175%;
+}
+section {
+	position: relative;
+	padding: 15px;
+	width: 100%;
+}
+p {
+position: relative;
+clear: right;
+}
+div {
+	position: relative;
+	background-color: black;
+	border: 1px grey;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+	.sub1 {	
+	float: right;
+	color: black;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px grey;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: red;
+
+	}
+	.sub2 {
+		float: right;
+		color: black;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px grey;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: yellow;
+
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px grey;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: blue;
+
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: black;
+		font-family: Helvetica;
+		color: white;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+
+	.row {
+		width: 90%;
+	}
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1>Simple Machines</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+		<p class="sub1">Lever</p>
+		<p class="content"> A lever is a rigid body capable of rotating on a point on itself. On the basis of the locations of fulcrum, load and effort, the lever is divided into three types. Also a leverage is a mechanical advantage gained in a mechanical system.</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+		<p class="sub2">Pulley</p>
+		<p class="content">A pulley is a wheel on an axle or shaft that is designed to support movement and change of direction of a taut cable or belt, or transfer of power between the shaft and cable or belt.</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+	<p class="sub3">Screw</p>
+	<p class="content">A screw is a mechanism that converts rotational motion to linear motion, and a torque (rotational force) to a linear force.It is one of the six classical simple machines. The most common form consists of a cylindrical shaft with helical grooves or ridges called threads around the outside.The screw passes through a hole in another object or medium, with threads on the inside of the hole that mesh with the screw's threads.</p>
+</div>
+</body>
+</html> 
